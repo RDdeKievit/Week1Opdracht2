@@ -1,0 +1,16 @@
+<script>
+	function vertaalnaarengels(){
+		var vertaaldeText = document.getElementById("tekstveld");
+        vertaaldeText.value= "There are 10 types of people in the world: those who understand binary and those who don't understand."
+		vertaaldeText.innerHTML = vertaaldeText
+    }
+</script>
+<style>
+    input[type=text]{
+            width: 650px;
+    }
+
+</style>
+Moppen vertaler<br><br>
+<input type=text id=tekstveld value= "Er zijn 10 soorten mensen in de wereld: zij die binair begrijpen en zij die het niet begrijpen.">
+<input type=button onclick="vertaalnaarengels()" value= "Vertaal naar Engels">
